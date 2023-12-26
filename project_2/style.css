@@ -1,0 +1,100 @@
+#fullbody {
+    background-color: #0F9690;
+}  
+#head,.contact {
+    font-weight: bold;
+    background-color: #0c7075;
+    text-transform: uppercase ;
+    text-align: center;   
+    
+}
+.menu {
+    text-decoration:none;
+    /* display: inline; */
+}
+.listmenu li{
+    list-style: none;
+    display: inline-block;
+    margin: 5px;
+}
+.experienc{
+    border:solid 1px black ;
+}
+table ,td ,th{
+    border-collapse:collapse;
+}
+#body{
+    background-color: #0F969C;
+    /* text-align: center; */
+}
+/* contact */
+.contact {
+    border: 2px solid black;
+    background-color: #0c7075;
+    padding: 10px;
+    margin: 10px;
+}
+.contactfooter li a{
+    
+    margin-top: 5px;
+    text-decoration: none;
+    font-weight: initial;
+    text-transform: uppercase;
+    list-style: none;
+    color: #3fdcea;
+    display: block;
+    text-align: center;
+}
+
+#username , #email, #textarea, #Gender , #deta , #selectbox ,#submit{
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #28750c;
+    border-radius: 10px;
+    box-shadow: 0 0 1em #51e51c;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+
+}
+#username, #email{
+    
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#submit{
+    padding: 10px 30px;
+    font-weight: bold;
+    font-style: white;
+}
+#submit:hover{
+    background-color: #51e51c;
+    font-style: normal red;
+    color: azure;
+    box-shadow: none;
+}
+.submit2{
+    padding: 10px 30px;
+    margin: 10px;
+    background-color: azure;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-style: bold;
+    display: inline-block;
+    border: 3px solid #06552e;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: 0 0 1em #51e51c;
+}
+a.submit2:hover{
+    background-color: #51e51c;
+    font-style: white;
+    color: azure;
+    box-shadow: none;
+
+}
